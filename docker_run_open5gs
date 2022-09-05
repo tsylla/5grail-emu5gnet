@@ -1,0 +1,45 @@
+docker run --runtime=sysbox-runc -it --hostname=open5gs --name open5gs -v /var/run/docker.sock:/var/run/docker.sock -v /home/wifi/mn-wifi-cnet-vimemu-install/open5gs:/etc/open5gs -v /home/wifi/mn-wifi-cnet-vimemu-install/open5gs/db:/var/lib/mongodb nestybox/ubuntu-bionic-systemd
+
+docker run --runtime=sysbox-runc -it --hostname=open5gs --name open5gs --privileged=true -p 3000:3000 -p 38412:38412 --device /dev/net/tun:/dev/net/tun --net=fiveg_net -v /var/run/docker.sock:/var/run/docker.sock -v /home/wifi/mn-wifi-cnet-vimemu-install/open5gs/db:/var/lib/mongodb open5gsctx:latest
+
+sudo ip addr add dev eth0 192.168.18.98/23
+docker run -it --hostname=ueransim --name ueransim --device /dev/net/tun:/dev/net/tun -v /home/wifi/mn-wifi-cnet-vimemu-install/ueransim:/ueransim ueransim:latest
+
+#docker net config
+docker network create -d ipvlan --subnet=192.168.18.0/23 --gateway=192.168.18.254 -o ipvlan_mode=l2 -o parent=enp0s3 emu_net
+
+sudo systemctl start open5gs-nrfd.service
+
+sudo systemctl start open5gs-nrfd.service
+
+sudo systemctl restart systemd-networkd
+
+sudo systemctl start open5gs-amfd.service
+
+sudo systemctl start open5gs-upfd.service
+
+sudo systemctl start open5gs-sgwcd.service
+
+sudo systemctl start open5gs-bsfd.service
+
+sudo systemctl start open5gs-hssd.service
+
+sudo systemctl start open5gs-hssd.service
+
+sudo systemctl start open5gs-pcrfd.service
+
+sudo systemctl start open5gs-nssfd.service
+
+sudo systemctl start open5gs-udrd.service
+
+sudo systemctl start open5gs-pcfd.service
+
+sudo systemctl start open5gs-mmed.service
+
+sudo systemctl start open5gs-ausfd.service
+
+sudo systemctl start open5gs-smfd.service
+
+sudo systemctl start open5gs-udmd.service
+
+sudo systemctl start open5gs-nrfd.service

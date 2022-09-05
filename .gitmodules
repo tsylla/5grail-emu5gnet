@@ -1,0 +1,7 @@
+[submodule "mininet-wifi"]
+	path = mininet-wifi
+	url = https://github.com/tidiosky/mininet-wifi
+
+[submodule "vim-emu-wifi"]
+	path = vim-emu-wifi
+	url = https://github.com/tidiosky/vim-emu-wifi

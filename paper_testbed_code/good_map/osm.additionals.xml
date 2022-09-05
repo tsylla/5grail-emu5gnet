@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-08 17:18:17 by Eclipse SUMO netedit Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/wifi/map/2022-06-08-15-25-25/osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/wifi/map/2022-06-08-15-25-25/osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/wifi/map/2022-06-08-15-25-25/osm.additionals.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poi id="ap_0" color="255,0,4" layer="202.00" name="access_point" x="484.85" y="1909.24" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_1" color="255,0,4" layer="202.00" name="access_point" x="595.86" y="1929.33" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_10" color="255,0,4" layer="202.00" name="access_point" x="2273.35" y="2260.56" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_11" color="255,0,4" layer="202.00" name="access_point" x="2459.97" y="2289.58" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_12" color="255,0,4" layer="202.00" name="access_point" x="2606.27" y="2309.86" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_14" color="255,0,4" layer="202.00" name="access_point" x="2931.61" y="2347.29" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_16" color="255,0,4" layer="202.00" name="access_point" x="2974.53" y="2485.56" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_2" color="255,0,4" layer="202.00" name="access_point" x="751.26" y="1964.21" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_4" color="255,0,4" layer="202.00" name="access_point" x="901.38" y="1993.81" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_5" color="255,0,4" layer="202.00" name="access_point" x="1231.18" y="2061.60" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_6" color="255,0,4" layer="202.00" name="access_point" x="1459.36" y="2098.43" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_7" color="255,0,4" layer="202.00" name="access_point" x="1662.75" y="2143.74" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_8" color="255,0,4" layer="202.00" name="access_point" x="1876.11" y="2184.11" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="ap_9" color="255,0,4" layer="202.00" name="access_point" x="2100.04" y="2229.28" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+    <poi id="poi_12" color="255,0,4" layer="202.00" name="access_point" x="1601.19" y="1922.93" imgFile="/home/wifi/map/access_point_red.png" width="16.00" height="16.00"/>
+</additional>

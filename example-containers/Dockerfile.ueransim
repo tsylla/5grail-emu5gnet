@@ -1,0 +1,3 @@
+FROM ueransim:latest
+
+CMD "/bin/bash"

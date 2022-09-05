@@ -1,0 +1,70 @@
+PING 11.0.0.110 (11.0.0.110) from 10.45.0.2 uesimtun0: 56(84) bytes of data.
+64 bytes from 11.0.0.110: icmp_seq=1 ttl=63 time=1.64 ms
+64 bytes from 11.0.0.110: icmp_seq=2 ttl=63 time=1.94 ms
+64 bytes from 11.0.0.110: icmp_seq=3 ttl=63 time=1.62 ms
+64 bytes from 11.0.0.110: icmp_seq=4 ttl=63 time=1.62 ms
+64 bytes from 11.0.0.110: icmp_seq=5 ttl=63 time=1.77 ms
+64 bytes from 11.0.0.110: icmp_seq=6 ttl=63 time=1.32 ms
+64 bytes from 11.0.0.110: icmp_seq=7 ttl=63 time=1.27 ms
+64 bytes from 11.0.0.110: icmp_seq=8 ttl=63 time=1.80 ms
+64 bytes from 11.0.0.110: icmp_seq=9 ttl=63 time=1.32 ms
+64 bytes from 11.0.0.110: icmp_seq=10 ttl=63 time=2.44 ms
+64 bytes from 11.0.0.110: icmp_seq=11 ttl=63 time=1.62 ms
+64 bytes from 11.0.0.110: icmp_seq=12 ttl=63 time=1.20 ms
+64 bytes from 11.0.0.110: icmp_seq=13 ttl=63 time=2.80 ms
+64 bytes from 11.0.0.110: icmp_seq=14 ttl=63 time=1.26 ms
+64 bytes from 11.0.0.110: icmp_seq=15 ttl=63 time=1.72 ms
+64 bytes from 11.0.0.110: icmp_seq=16 ttl=63 time=1.43 ms
+64 bytes from 11.0.0.110: icmp_seq=17 ttl=63 time=1.76 ms
+64 bytes from 11.0.0.110: icmp_seq=18 ttl=63 time=1.10 ms
+64 bytes from 11.0.0.110: icmp_seq=19 ttl=63 time=1.33 ms
+64 bytes from 11.0.0.110: icmp_seq=20 ttl=63 time=1.81 ms
+64 bytes from 11.0.0.110: icmp_seq=21 ttl=63 time=1.38 ms
+64 bytes from 11.0.0.110: icmp_seq=22 ttl=63 time=1.13 ms
+64 bytes from 11.0.0.110: icmp_seq=23 ttl=63 time=2.23 ms
+64 bytes from 11.0.0.110: icmp_seq=24 ttl=63 time=1.24 ms
+64 bytes from 11.0.0.110: icmp_seq=25 ttl=63 time=1.82 ms
+64 bytes from 11.0.0.110: icmp_seq=26 ttl=63 time=1.75 ms
+64 bytes from 11.0.0.110: icmp_seq=27 ttl=63 time=1.17 ms
+64 bytes from 11.0.0.110: icmp_seq=28 ttl=63 time=1.15 ms
+64 bytes from 11.0.0.110: icmp_seq=29 ttl=63 time=2.25 ms
+64 bytes from 11.0.0.110: icmp_seq=30 ttl=63 time=1.46 ms
+
+--- 11.0.0.110 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29059ms
+rtt min/avg/max/mdev = 1.098/1.611/2.797/0.407 ms
+PING 172.20.0.4 (172.20.0.4) from 10.45.0.2 uesimtun0: 56(84) bytes of data.
+64 bytes from 172.20.0.4: icmp_seq=1 ttl=63 time=3.82 ms
+64 bytes from 172.20.0.4: icmp_seq=2 ttl=63 time=5.53 ms
+64 bytes from 172.20.0.4: icmp_seq=3 ttl=63 time=4.12 ms
+64 bytes from 172.20.0.4: icmp_seq=4 ttl=63 time=6.39 ms
+64 bytes from 172.20.0.4: icmp_seq=5 ttl=63 time=5.39 ms
+64 bytes from 172.20.0.4: icmp_seq=6 ttl=63 time=6.57 ms
+64 bytes from 172.20.0.4: icmp_seq=7 ttl=63 time=12.7 ms
+64 bytes from 172.20.0.4: icmp_seq=8 ttl=63 time=3.55 ms
+64 bytes from 172.20.0.4: icmp_seq=9 ttl=63 time=6.08 ms
+64 bytes from 172.20.0.4: icmp_seq=10 ttl=63 time=3.39 ms
+64 bytes from 172.20.0.4: icmp_seq=11 ttl=63 time=3.30 ms
+64 bytes from 172.20.0.4: icmp_seq=12 ttl=63 time=3.96 ms
+64 bytes from 172.20.0.4: icmp_seq=13 ttl=63 time=5.25 ms
+64 bytes from 172.20.0.4: icmp_seq=14 ttl=63 time=3.76 ms
+64 bytes from 172.20.0.4: icmp_seq=15 ttl=63 time=4.51 ms
+64 bytes from 172.20.0.4: icmp_seq=16 ttl=63 time=5.76 ms
+64 bytes from 172.20.0.4: icmp_seq=17 ttl=63 time=5.96 ms
+64 bytes from 172.20.0.4: icmp_seq=18 ttl=63 time=5.02 ms
+64 bytes from 172.20.0.4: icmp_seq=19 ttl=63 time=4.56 ms
+64 bytes from 172.20.0.4: icmp_seq=20 ttl=63 time=4.90 ms
+64 bytes from 172.20.0.4: icmp_seq=21 ttl=63 time=3.20 ms
+64 bytes from 172.20.0.4: icmp_seq=22 ttl=63 time=2.75 ms
+64 bytes from 172.20.0.4: icmp_seq=23 ttl=63 time=2.73 ms
+64 bytes from 172.20.0.4: icmp_seq=24 ttl=63 time=3.07 ms
+64 bytes from 172.20.0.4: icmp_seq=25 ttl=63 time=5.01 ms
+64 bytes from 172.20.0.4: icmp_seq=26 ttl=63 time=2.39 ms
+64 bytes from 172.20.0.4: icmp_seq=27 ttl=63 time=3.62 ms
+64 bytes from 172.20.0.4: icmp_seq=28 ttl=63 time=3.29 ms
+64 bytes from 172.20.0.4: icmp_seq=29 ttl=63 time=2.38 ms
+64 bytes from 172.20.0.4: icmp_seq=30 ttl=63 time=4.30 ms
+
+--- 172.20.0.4 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29044ms
+rtt min/avg/max/mdev = 2.375/4.573/12.665/1.913 ms

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-06-08 15:25:37.153281 by osmWebWizard.py UNKNOWN
+  options: 
+-->
+<viewsettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/viewsettings_file.xsd">
+    <decal file="tile17593_10743.jpeg" centerX="-170.01054212468443" centerY="3016.9867078298703" width="727.3399892842863" height="760.852033443749" layer="-300"/>
+    <decal file="tile17593_10744.jpeg" centerX="-187.64336967101553" centerY="2273.7544700866565" width="727.4520894981688" height="760.9654884133488" layer="-300"/>
+    <decal file="tile17593_10745.jpeg" centerX="-205.27728626865428" centerY="1530.4098800690845" width="727.5641975259641" height="761.0789492931217" layer="-300"/>
+    <decal file="tile17593_10746.jpeg" centerX="-222.9122911200393" centerY="786.9529310753569" width="727.6763133626664" height="761.1924160886556" layer="-300"/>
+    <decal file="tile17593_10747.jpeg" centerX="-240.54838342714356" centerY="43.383616409264505" width="727.7884370043175" height="761.3058887701482" layer="-300"/>
+    <decal file="tile17594_10743.jpeg" centerX="575.0188821093761" centerY="2999.367201946676" width="727.4542841130169" height="760.739667929709" layer="-300"/>
+    <decal file="tile17594_10744.jpeg" centerX="557.4992473387974" centerY="2256.1338622123003" width="727.5663905503461" height="760.8531149886549" layer="-300"/>
+    <decal file="tile17594_10745.jpeg" centerX="539.9785305306432" centerY="1512.7881709970534" width="727.6785047957674" height="760.9665679577738" layer="-300"/>
+    <decal file="tile17594_10746.jpeg" centerX="522.4567324775853" centerY="769.3301215982065" width="727.7906268450897" height="761.080026846379" layer="-300"/>
+    <decal file="tile17594_10747.jpeg" centerX="504.93385397229576" centerY="25.75970732048154" width="727.9027566933073" height="761.1934916302562" layer="-300"/>
+    <decal file="tile17595_10743.jpeg" centerX="1320.049407907296" centerY="2981.86116712261" width="727.568571008509" height="760.6272960919887" layer="-300"/>
+    <decal file="tile17595_10744.jpeg" centerX="1302.6429651219514" centerY="2238.626732517965" width="727.680683674058" height="760.7407352402806" layer="-300"/>
+    <decal file="tile17595_10745.jpeg" centerX="1285.2354473124724" centerY="1495.2799472212791" width="727.7928041422274" height="760.8541803024709" layer="-300"/>
+    <decal file="tile17595_10746.jpeg" centerX="1267.8268552661757" centerY="751.8208045270294" width="727.9049324082443" height="760.9676312915981" layer="-300"/>
+    <decal file="tile17595_10747.jpeg" centerX="1250.4171897707856" centerY="8.249297740869224" width="728.0170684679179" height="761.0810881815851" layer="-300"/>
+    <decal file="tile17596_10743.jpeg" centerX="2065.0810281298473" centerY="2964.4686025725678" width="727.6828499771655" height="760.5149179138243" layer="-300"/>
+    <decal file="tile17596_10744.jpeg" centerX="2047.7877765442827" centerY="2221.2330802176148" width="727.794968875125" height="760.6283491570503" layer="-300"/>
+    <decal file="tile17596_10745.jpeg" centerX="2030.4934569475008" centerY="1477.8852079501376" width="727.9070955704665" height="760.7417863253504" layer="-300"/>
+    <decal file="tile17596_10746.jpeg" centerX="2013.1980701215216" centerY="734.4249790692702" width="728.0192300581839" height="760.8552294205874" layer="-300"/>
+    <decal file="tile17596_10747.jpeg" centerX="1995.9016168490634" centerY="-9.147613120265305" width="728.1313723337371" height="760.9686784185469" layer="-300"/>
+    <decal file="tile17597_10743.jpeg" centerX="2810.1137356378604" centerY="2947.1895075086504" width="727.7971210243413" height="760.4025334008038" layer="-300"/>
+    <decal file="tile17597_10744.jpeg" centerX="2792.9336744718603" centerY="2203.952904522419" width="727.9092461599503" height="760.5159567445517" layer="-300"/>
+    <decal file="tile17597_10745.jpeg" centerX="2775.7525523068616" centerY="1460.6039523985237" width="728.0213790870039" height="760.6293860208243" layer="-300"/>
+    <decal file="tile17597_10746.jpeg" centerX="2758.570369919995" centerY="717.1426444407552" width="728.1335198007291" height="760.7428212240338" layer="-300"/>
+    <decal file="tile17597_10747.jpeg" centerX="2741.387128088856" centerY="-26.431026049889624" width="728.2456682970515" height="760.856262339279" layer="-300"/>
+    <decal file="tile17598_10743.jpeg" centerX="3555.147523292573" centerY="2930.023881155066" width="727.9113841555081" height="760.2901425398886" layer="-300"/>
+    <decal file="tile17598_10744.jpeg" centerX="3538.0806517708697" centerY="2186.786204653792" width="728.0235155331902" height="760.4035579934716" layer="-300"/>
+    <decal file="tile17598_10745.jpeg" centerX="3521.012726262037" centerY="1443.4361797878519" width="728.1356546966126" height="760.5169793777168" layer="-300"/>
+    <decal file="tile17598_10746.jpeg" centerX="3503.9437475380837" centerY="699.9737998582423" width="728.2478016411187" height="760.6304067019373" layer="-300"/>
+    <decal file="tile17598_10747.jpeg" centerX="3486.873716371483" centerY="-43.600941830314696" width="728.359956362634" height="760.7438399400562" layer="-300"/>
+</viewsettings>

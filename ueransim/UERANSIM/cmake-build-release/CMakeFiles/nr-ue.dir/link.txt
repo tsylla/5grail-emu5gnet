@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/nr-ue.dir/src/ue.cpp.o" -o nr-ue  -lpthread src/lib/libcommon-lib.a src/ue/libue.a src/lib/libcommon-lib.a src/utils/libutils.a src/ext/libext.a src/asn/ngap/libasn-ngap.a src/asn/rrc/libasn-rrc.a src/asn/asn1c/libasn-asn1c.a -lsctp 

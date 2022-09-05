@@ -1,0 +1,28 @@
+#parent image
+FROM ubuntu:focal
+
+#install needed packages
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    iperf3 \
+    python3.8 python3-pip
+
+RUN pip3 install Flask==2.1.0
+RUN pip3 install Flask-RESTful==0.3.9
+RUN pip3 install docker==4.4.1
+
+COPY ./orchestrator_start.sh /testbed_dir/orchestrator_start.sh
+# ADD RNOEdgeOrchestrator.py /testbed_dir/RNOEdgeOrchestrator.py
+# ADD rest_server.py /testbed_dir/RNOEdgeOrchestrator.py
+# ADD testbed_utils.py /testbed_dir/testbed_utils.py
+# ADD speedtest.py /testbed_dir/speedtest.py
+
+WORKDIR /testbed_dir
+
+RUN chmod +x orchestrator_start.sh
+
+ENTRYPOINT ["/testbed_dir/orchestrator_start.sh"]
+
+CMD [ "/bin/bash" ]

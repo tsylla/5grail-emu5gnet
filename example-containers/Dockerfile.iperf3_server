@@ -1,0 +1,20 @@
+# parent image
+FROM ubuntu:trusty
+
+# install needed packages
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    telnet telnetd \
+    iperf3
+
+# set entry point for emulator gatekeeper
+ENV VIM_EMU_CMD "iperf3 -s -D"
+ENV VIM_EMU_CMD_STOP "echo 'Stop iperf_server'"
+
+# run bash interpreter
+
+CMD ["iperf3", "-s","-D"]
+
+EXPOSE 5201

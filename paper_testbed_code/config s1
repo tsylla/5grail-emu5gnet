@@ -1,0 +1,13 @@
+sudo ifconfig s1 up
+
+sudo ovs-vsctl add-port s1 dummy1
+
+ifconfig dummy1 0
+
+pour chaque hôte faire : ifconfig intf 0
+
+ip addr add adresseip/prefix dev intf
+
+route add default gw defaultIP (s1-ip)
+
+ping 

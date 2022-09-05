@@ -1,0 +1,16 @@
+# parent image
+FROM ubuntu:trusty
+
+# install needed packages
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    telnet telnetd \
+    iperf3
+
+# set entry point for emulator gatekeeper
+ENV VIM_EMU_CMD "echo 'Client started'"
+
+# run bash interpreter
+CMD /bin/bash

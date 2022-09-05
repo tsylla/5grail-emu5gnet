@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+
+  onos:
+    image: onosproject/onos
+    hostname: onos
+    container_name: onos
+    ports:
+      - 8181:8181
+      - 8101:8101
+      - 5005:5005
+      - 830:830
+      - 6653:6653
+    volumes:
+      - /home/wifi/onos_ssh:/home/root/.ssh
+    environment:
+      - ONOS_APPS=drivers,openflow,gui2,proxyarp,fwd

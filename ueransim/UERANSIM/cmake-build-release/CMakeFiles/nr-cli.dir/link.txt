@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/nr-cli.dir/src/cli.cpp.o" -o nr-cli  -lpthread src/lib/libcommon-lib.a src/utils/libutils.a src/ext/libext.a src/asn/ngap/libasn-ngap.a src/asn/rrc/libasn-rrc.a src/asn/asn1c/libasn-asn1c.a -lsctp 

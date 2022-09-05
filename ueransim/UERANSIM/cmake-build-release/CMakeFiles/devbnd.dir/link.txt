@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -nostartfiles -shared -Wl,-soname,libdevbnd.so -o libdevbnd.so CMakeFiles/devbnd.dir/src/binder.cpp.o  -ldl 

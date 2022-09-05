@@ -1,0 +1,473 @@
+Build started at 2022-08-02T09:10:51.130034
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.45.1
+Source dir: /open5gs
+Build dir: /open5gs/build
+Build type: native build
+Project name: open5gs
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /open5gs/build/meson-private/sanitycheckc.c -o /open5gs/build/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /open5gs/build/meson-private/sanitycheckc.exe
+Native C compiler: cc (gcc 7.5.0 "cc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /open5gs/build/meson-private/sanitycheckcpp.cc -o /open5gs/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /open5gs/build/meson-private/sanitycheckcpp.exe
+Native C++ compiler: c++ (gcc 7.5.0 "c++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Program git found: YES (/usr/bin/git)
+Program python3 found: YES (/usr/bin/python3)
+Program cppcheck found: NO
+Program run-clang-tidy found: NO
+Program clang-tidy found: NO
+Program /usr/bin/python3 found: YES (/usr/bin/python3)
+Running compile:
+Working directory:  /tmp/tmp4aev2jzb
+Command line:  cc /tmp/tmp4aev2jzb/testfile.c -O0 -Wextra -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp4aev2jzb/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp_mo0z0mt
+Command line:  cc /tmp/tmp_mo0z0mt/testfile.c -O0 -Wlogical-op -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp_mo0z0mt/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpm9j5qbhj
+Command line:  cc /tmp/tmpm9j5qbhj/testfile.c -O0 -Werror=missing-include-dirs -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpm9j5qbhj/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpsds3p_ur
+Command line:  cc /tmp/tmpsds3p_ur/testfile.c -O0 -Werror=pointer-arith -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpsds3p_ur/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpi4z1bl7n
+Command line:  cc /tmp/tmpi4z1bl7n/testfile.c -O0 -Werror=init-self -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpi4z1bl7n/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpwi9wm7n_
+Command line:  cc /tmp/tmpwi9wm7n_/testfile.c -O0 -Wfloat-equal -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpwi9wm7n_/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpd3u687t5
+Command line:  cc /tmp/tmpd3u687t5/testfile.c -O0 -Wsuggest-attribute=noreturn -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpd3u687t5/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp9klrldz_
+Command line:  cc /tmp/tmp9klrldz_/testfile.c -O0 -Werror=missing-prototypes -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9klrldz_/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpaennzdky
+Command line:  cc /tmp/tmpaennzdky/testfile.c -O0 -Werror=missing-declarations -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpaennzdky/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpmc45on2t
+Command line:  cc /tmp/tmpmc45on2t/testfile.c -O0 -Werror=implicit-function-declaration -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmc45on2t/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp3o0nidys
+Command line:  cc /tmp/tmp3o0nidys/testfile.c -O0 -Werror=return-type -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp3o0nidys/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpn1rtn_5h
+Command line:  cc /tmp/tmpn1rtn_5h/testfile.c -O0 -Werror=incompatible-pointer-types -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpn1rtn_5h/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpjpbp7bfx
+Command line:  cc /tmp/tmpjpbp7bfx/testfile.c -O0 -Werror=format=2 -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpjpbp7bfx/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp93okvrfr
+Command line:  cc /tmp/tmp93okvrfr/testfile.c -O0 -Wstrict-prototypes -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp93okvrfr/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp2cq4btl4
+Command line:  cc /tmp/tmp2cq4btl4/testfile.c -O0 -Wredundant-decls -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp2cq4btl4/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpn6tl6mmz
+Command line:  cc /tmp/tmpn6tl6mmz/testfile.c -O0 -Wimplicit-fallthrough=5 -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpn6tl6mmz/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp06hrjkza
+Command line:  cc /tmp/tmp06hrjkza/testfile.c -O0 -Wendif-labels -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp06hrjkza/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpyeys6w52
+Command line:  cc /tmp/tmpyeys6w52/testfile.c -O0 -Wstrict-aliasing=3 -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpyeys6w52/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp9xyar6ij
+Command line:  cc /tmp/tmp9xyar6ij/testfile.c -O0 -Wwrite-strings -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9xyar6ij/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp2cychpy8
+Command line:  cc /tmp/tmp2cychpy8/testfile.c -O0 -Werror=overflow -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp2cychpy8/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmptmpndvm5
+Command line:  cc /tmp/tmptmpndvm5/testfile.c -O0 -Werror=shift-count-overflow -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmptmpndvm5/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpibbrbygj
+Command line:  cc /tmp/tmpibbrbygj/testfile.c -O0 -Werror=shift-overflow=2 -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpibbrbygj/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp_2c0kt5_
+Command line:  cc /tmp/tmp_2c0kt5_/testfile.c -O0 -Wdate-time -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp_2c0kt5_/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpbg3wvw_1
+Command line:  cc /tmp/tmpbg3wvw_1/testfile.c -O0 -Wnested-externs -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpbg3wvw_1/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpdqxb1lbc
+Command line:  cc /tmp/tmpdqxb1lbc/testfile.c -O0 -Wunused -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdqxb1lbc/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpx9e_86lk
+Command line:  cc /tmp/tmpx9e_86lk/testfile.c -O0 -Wduplicated-branches -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpx9e_86lk/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpflkdc02w
+Command line:  cc /tmp/tmpflkdc02w/testfile.c -O0 -Wmisleading-indentation -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpflkdc02w/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpm03m6gml
+Command line:  cc /tmp/tmpm03m6gml/testfile.c -O0 -Wno-sign-compare -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpm03m6gml/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpj42mghie
+Command line:  cc /tmp/tmpj42mghie/testfile.c -O0 -Wno-unused-parameter -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpj42mghie/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp3xj40jbv
+Command line:  cc /tmp/tmp3xj40jbv/testfile.c -O0 -ffast-math -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp3xj40jbv/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpfpxxa7jj
+Command line:  cc /tmp/tmpfpxxa7jj/testfile.c -O0 -fdiagnostics-show-option -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpfpxxa7jj/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmptfeexeau
+Command line:  cc /tmp/tmptfeexeau/testfile.c -O0 -fstack-protector -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmptfeexeau/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpxbn3blnl
+Command line:  cc /tmp/tmpxbn3blnl/testfile.c -O0 -fstack-protector-strong -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpxbn3blnl/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpgmwy_t1z
+Command line:  cc /tmp/tmpgmwy_t1z/testfile.c -O0 --param=ssp-buffer-size=4 -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpgmwy_t1z/output.obj 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wextra -Wlogical-op -Werror=missing-include-dirs -Werror=pointer-arith -Werror=init-self -Wfloat-equal -Wsuggest-attribute=noreturn -Werror=missing-prototypes -Werror=missing-declarations -Werror=implicit-function-declaration -Werror=return-type -Werror=incompatible-pointer-types -Werror=format=2 -Wstrict-prototypes -Wredundant-decls -Wimplicit-fallthrough=5 -Wendif-labels -Wstrict-aliasing=3 -Wwrite-strings -Werror=overflow -Werror=shift-count-overflow -Werror=shift-overflow=2 -Wdate-time -Wnested-externs -Wunused -Wduplicated-branches -Wmisleading-indentation -Wno-sign-compare -Wno-unused-parameter -ffast-math -fdiagnostics-show-option -fstack-protector -fstack-protector-strong --param=ssp-buffer-size=4: YES
+Configuring sample.yaml using configuration
+Configuring 310014.yaml using configuration
+Configuring csfb.yaml using configuration
+Configuring volte.yaml using configuration
+Configuring vonr.yaml using configuration
+Configuring slice.yaml using configuration
+Configuring srslte.yaml using configuration
+Configuring non3gpp.yaml using configuration
+Program /usr/bin/python3 found: YES (/usr/bin/python3)
+Configuring mme.yaml using configuration
+Configuring sgwc.yaml using configuration
+Configuring sgwu.yaml using configuration
+Configuring smf.yaml using configuration
+Configuring amf.yaml using configuration
+Configuring upf.yaml using configuration
+Configuring hss.yaml using configuration
+Configuring pcrf.yaml using configuration
+Configuring nrf.yaml using configuration
+Configuring ausf.yaml using configuration
+Configuring udm.yaml using configuration
+Configuring udr.yaml using configuration
+Configuring pcf.yaml using configuration
+Configuring nssf.yaml using configuration
+Configuring bsf.yaml using configuration
+Program /usr/bin/python3 found: YES (/usr/bin/python3)
+Configuring mme.conf using configuration
+Configuring hss.conf using configuration
+Configuring smf.conf using configuration
+Configuring pcrf.conf using configuration
+Configuring cacert.pem using configuration
+Configuring mme.cert.pem using configuration
+Configuring mme.key.pem using configuration
+Configuring hss.cert.pem using configuration
+Configuring hss.key.pem using configuration
+Configuring smf.cert.pem using configuration
+Configuring smf.key.pem using configuration
+Configuring pcrf.cert.pem using configuration
+Configuring pcrf.key.pem using configuration
+Configuring open5gs-mmed.service using configuration
+Configuring open5gs-sgwcd.service using configuration
+Configuring open5gs-smfd.service using configuration
+Configuring open5gs-amfd.service using configuration
+Configuring open5gs-sgwud.service using configuration
+Configuring open5gs-upfd.service using configuration
+Configuring open5gs-hssd.service using configuration
+Configuring open5gs-pcrfd.service using configuration
+Configuring open5gs-nrfd.service using configuration
+Configuring open5gs-ausfd.service using configuration
+Configuring open5gs-udmd.service using configuration
+Configuring open5gs-pcfd.service using configuration
+Configuring open5gs-nssfd.service using configuration
+Configuring open5gs-bsfd.service using configuration
+Configuring open5gs-udrd.service using configuration
+Configuring 99-open5gs.netdev using configuration
+Configuring 99-open5gs.network using configuration
+Configuring open5gs using configuration
+Configuring open5gs.conf using configuration
+
+meson.build:119:0: ERROR: Non-existent build file 'lib/meson.build'

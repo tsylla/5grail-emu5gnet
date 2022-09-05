@@ -1,0 +1,10 @@
+py "Configuring bridge switch s1 with dummy interface"
+sh ip 
+sh ovs-vsctl del-port s2 dummy0
+sh ovs-vsctl add-port s2 dummy0
+sh ifconfig s2 up
+sh ifconfig dummy0 0
+sh ip addr add 12.0.0.2/8 dev s2
+
+py "s2 ip configuration"
+sh ifconfig s2

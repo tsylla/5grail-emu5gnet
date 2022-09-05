@@ -1,0 +1,29 @@
+#parent image
+FROM ubuntu:trusty
+
+#install needed packages
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    iperf3 \
+    iw \
+    python3 python3-pip
+
+
+COPY ./speedtest.py /var/test/speedtest.py
+COPY ./speedtest.sh /var/test/speedtest.sh
+
+RUN mkdir -p /db
+
+WORKDIR /var/test/
+#Give the execution right to the script
+RUN chmod +x /var/test/speedtest.sh
+
+ENV VIM_EMU_CMD "/var/test/speedtest.sh "
+
+ENV VIM_EMU_CMD_STOP "VNF IS STARTED"
+
+#ENTRYPOINT ["/var/test/speedtest.sh"]
+
+CMD [ "/bin/bash" ]

@@ -1,0 +1,14 @@
+#parent image
+FROM ubuntu:focal
+
+#install needed packages
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    telnet telnetd \
+    iperf \
+    iw
+
+#run bash interpreter
+CMD /bin/bash
