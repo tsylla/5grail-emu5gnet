@@ -29,18 +29,19 @@ vim-emu is based on Containernet. But the wifi version of Containernet, [Contain
 7. Test if it works. In the case if the code don't run, reinstall by ignoring the step 6.
 ```
 
-#Installer vim-emu
-#Prérequis : version Flask : 2.1.0 et Flask-restful 0.3.9
-1. git clone https://osm.etsi.org/gerrit/osm/vim-emu.git
-cd ~/vim-emu/ansible
-sudo ansible-playbook -i "localhost," -c local install.yml
-cd ..
-sudo python3 setup.py develop
-2. tester la commande vim-emu. Si ça marche pas (erreur emuvim introuvable) c'est que la libraire emuvim doit être replacer
-3. se placer dans le repertoir /usr/lib/python3/dist-packages et exécuter : sudo cp -rd /usr/lib/python3.8/site-packages/* .
-4. essayer vim-emu
-5. copier le fichier mininet_net.py du repertoire mininet de ce répo vers /usr/local/lib/python3.8/dist-packages/mininet/mininet/net.py
-6. copier le fichier mn_wifi_node.py du même repertoire vers /usr/local/lib/python3.8/dist-packages/mininet_wifixxxx/node.py
-
-#Integration Open5GS et UERANSIM
+#### Step 2 : Install vim-emu, the NFVI
+To be able to make vim-emu run smoothly, the following version of Flask and Flask-restful should be respected : Flask 2.1.0 et Flask-restful 0.3.9.
+```
+1. git clone https://github.com/tidiosky/vim-emu-wifi
+2. cd ~/vim-emu-wifi/ansible
+3. sudo ansible-playbook -i "localhost," -c local install.yml
+4. cd ..
+5. sudo python3 setup.py develop
+6. Try the vim-emu command. If the command don't work, i.e. it gives error emuvim not found as result, this mean that emuvim library must be relocated. Go to step 7.
+7. Go to /usr/lib/python3/dist-packages and run : sudo cp -rd /usr/lib/python3.8/site-packages/* .
+8. Try vim-emu command it should work.
+9. Copy the mininet_net.py file from this repository mininet folder to /usr/local/lib/python3.8/dist-packages/mininet/mininet/net.py
+10. Copy the file mn_wifi_node.py from the same folder to /usr/local/lib/python3.8/dist-packages/mininet_wifixxxx/node.py, where xxxx is Mininet-wifi version.
+```
+### A 5G Core and RAN Integration (Open5GS and UERANSIM)
 
