@@ -1,14 +1,10 @@
-# Comment installer mininet wifi from clean ubuntu
+# Emu5GNet : An Open-Source Emulator for 5G Software-Defined and NFV Networks
+This emulation environment has been created to allow researchers/industrials to develop and deploy applications in complex 5G network architecture (SA and NSA) for enabling both emulations of the network and data processing in realistic E2E scenarios. They can propose and evaluate new solutions for future 5G networks, whatever the use case considered: Internet of Things, vehicular communication networks, railway communication networks, augmented reality, etc. Emu5GNet allows the execution of 5G RAN and Core using Mininet-Wifi environment and [containernet](https://containernet.github.io/). The 5G RAN and Core can be packed inside docker containers. Emu5GNet also allows the integration of full ETSI NFV compliant infrastructure based on [vim-emu] (https://github.com/containernet/vim-emu) platform. This last integration of an enhancement of **vim-emu** enables the interconnection of Mininet-Wifi Access points and vim-emu datacenters and, allows the network functions migration across edge datacenters.
 
-1. sudo apt install mininet
-2. sudo apt install git python3
-3. sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
-4. git clone https://github.com/intrig-unicamp/mininet-wifi
-5. cd mininet-wifi
-6. sudo util/install.sh -Wlnfv
-7. test wifi sudo mn --wifi
+## Prepare the environment
+Follow the getting started instructions with Mininet-Wifi available a https://mininet-wifi.github.io/get-started/. Next, download the VM Image proposed on this page. The VM username/password is wifi. The VM comes with Mininet-Wifi 2.6 version. This version works perfectly with python 3.8 before June 2022 update. Block any update and upgrade requests that will be asked by Ubuntu.
 
-# Installer containernet-wifi + vim-emu compatible
+## Installer containernet-wifi + vim-emu compatible
 1. sudo apt-get install ansible git aptitude
 2. git clone https://github.com/containernet/containernet(1)
 3. git clone https://github.com/ramonfontes/containernet
