@@ -6,7 +6,11 @@ This environment has been developed within the project “5G for future RAILway 
 
 ## Cite this work
 If you use the emulation environment during your research and/or for your publications, please cite the following paper as reference to Emu5GNet :
+
+```
 - T. Sylla, L. Mendiboure, M. Berbineau, R. Singh, J. Soler and M. S. Berger : Emu5GNet: an Open-Source Emulator for 5G Software-Defined Networks. 18th International Conference on Wireless and Mobile Computing, Networking and Communications, Thessaloniki, Grece, pp. doi. (2022)
+
+```
 
 ## Environment installation and configuration
 As this emulation environment allows building complex 5G architecture and data processing scenarios, it's installation require manual and individual element setup.
