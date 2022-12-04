@@ -8,8 +8,7 @@ This environment has been developed within the project “5G for future RAILway 
 If you use the emulation environment during your research and/or for your publications, please cite the following paper as reference to Emu5GNet :
 
 ```
-- T. Sylla, L. Mendiboure, M. Berbineau, R. Singh, J. Soler and M. S. Berger : Emu5GNet: an Open-Source Emulator for 5G Software-Defined Networks. 
-18th International Conference on Wireless and Mobile Computing, Networking and Communications, Thessaloniki, Grece, pp. doi. (2022)
+- T. Sylla, L. Mendiboure, M. Berbineau, R. Singh, J. Soler and M. S. Berger, "Emu5GNet: an Open-Source Emulator for 5G Software-Defined Networks," 2022 18th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), 2022, pp. 474-477, doi: 10.1109/WiMob55322.2022.9941588.
 
 ```
 
