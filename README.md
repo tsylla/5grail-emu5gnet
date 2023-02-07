@@ -50,8 +50,31 @@ Display network interfaces and Ping Internet using the UERANSIM 5G UE interface 
 ifconfig
 ping -I uesimtun0 8.8.8.8
 ```
-You can find out more about the UERANSIM 5G UE tools (nr-ue, nr-cli) [here](https://github.com/aligungr/UERANSIM/wiki/Usage)
+You can find out more about the UERANSIM 5G UE tools (nr-ue, nr-cli) [here](https://github.com/aligungr/UERANSIM/wiki/Usage).
+Let play with Wifi connection also. Check the Wifi connectivity :
+```
+iw dev car1-wlan0 link 
+```
+If the Wifi is connected, ping the wifi gateway : 
+```
+ping -I car1-wlan0 192.168.0.1
+```
+Display the routing table to see the different routes :
+``` ip route ```
 
+7. 5G and Wifi VANET scenario using SUMO simulator for train communications : 
+We prepare a script for VANET+SUMO 5G based network emulation. 
+
+You can this code multi_connectivity_5G_wifi_sumo.py and see the results.
+
+8. UE configuration for Open5GS
+In this VM you have 10 5G UE configured in the UDM of Open5GS. These UE (t1 to t10) are configured with UERANSIM and their configurations are located under UERANSIM config directory : ~/mn-wifi-cnet-vimemu-install/ueransim/UERANSIM/config. The UE keys were generated using [Ki/OPc Generator](https://github.com/PodgroupConnectivity/kiopcgenerator) tool.
+So you can generate the number of 5G UE you want and register in Open5GS UDM. To do so, proceed as follow. 
+  - Open the web browser and enter : http://172.20.0.02:8080/
+  - Enter username : admin and password : 1234
+  - Then add a new UE.
+Enjoy research with **Emu5GNet** !!!
+ 
 ## Environment installation and configuration  step by step
 As this emulation environment allows building complex 5G architecture and data processing scenarios, it's installation require manual and individual element setup.
 
