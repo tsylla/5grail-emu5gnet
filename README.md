@@ -7,12 +7,52 @@ This environment has been developed within the project “5G for future RAILway 
 ## Cite this work
 If you use the emulation environment during your research and/or for your publications, please cite the following paper as reference to Emu5GNet :
 
-```
-- T. Sylla, L. Mendiboure, M. Berbineau, R. Singh, J. Soler and M. S. Berger, "Emu5GNet: an Open-Source Emulator for 5G Software-Defined Networks," 2022 18th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), 2022, pp. 474-477, doi: 10.1109/WiMob55322.2022.9941588.
+> T. Sylla, L. Mendiboure, M. Berbineau, R. Singh, J. Soler and M. S. Berger, "Emu5GNet: an Open-Source Emulator for 5G Software-Defined Networks," 2022 18th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), 2022, pp. 474-477, doi: 10.1109/WiMob55322.2022.9941588.
 
-```
+## Getting started with Emu5GNet VM
+The Emu5GNet virtual machine aims to help the future users to quickly start working with this emulated 5G multi-connectivity and Edge Computing environment. Due to versions upgrades, installing the environment from scratch is a challenging task. For more details on the platform, please refer to this paper : [Emu5GNet](https://ieeexplore.ieee.org/document/9941588).
 
-## Environment installation and configuration
+1. Download the Emu5GNet VM from this [link] and import it to VirtualBox. You can also create a VMWare VM using only the disk file in vmdk format. We recommend to keep the VM configuration as given : 4 vCPU, 16 Gb and 80 Gb storage. 
+2. The VM is provided with two examples of multi-connectivity 5G/Wifi. These examples are located in the ~/mn-wifi-cnet-vimemu-install/codes_example directory. To keep testbed working smoothly and to not have troubles with paths, an environment variable TESTBED_DIR with emulation code directory path have been coded in hard in the ~/.bashrc file.
+3. At the VM startup, you need to run the custom Linux static routing commands in order to enable communication between the different component of the emulation environment : such as Mininet-Wifi and Open5GS, and Open5GS tunnel towards Internet. We created two scripts to do these tasks. To do so, open a terminal and run the following script :
+```
+cd ~/mn-wifi-cnet-vimemu-install
+sudo ./setup_host_network_interfaces_for_emu.sh 
+sudo ./5gs_tun_setup.sh 
+```
+4. Start the Open5GS 5GC core container named open5gsl with running command in a new terminal :
+```
+docker start -i open5gsl 
+```
+The username and password are admin/admin.
+5. Once logged inside the Open5GS 5G core container, you need to configure the IPv4 routing to enable Open5GS establishing Internet connection for 5G UE. You need to also setup NAT for Open5GS Tunnel and an IP address in the docker range (172.20.0.0/16). This IP address will be configured on the Open5GS-UPF for PDU session management. We prepared a script for this task : startup_config.sh  :
+```
+sudo ./startup_config.sh
+```
+After running this script, check if the following IP addresses are configured :
+```
+eth0@xxxxx : 172.20.0.2 (Container and AMF, etc.) and 172.20.0.10 (UPF)
+ogstun : 10.45.0.1/16 and 2001:db8:cafe::1/48.
+```
+6. 5G and Wifi basic scenario :
+
+You are ready to run you first example. Use Visual Studio Code to visualize the python script named multi_connectivity_5G_wifi.py inside the codes_example directory. This code follow a general Mininet/Mininet-Wifi and Containernet code structure. If you are not familiar with these environments, please read their documentations and examples : [Mininet](https://github.com/mininet/mininet/wiki/Introduction-to-Mininet), [Mininet-Wifi](https://usermanual.wiki/Pdf/mininetwifidraftmanual.577244160/html), [Containernet](https://github.com/containernet/containernet/wiki/Tutorial:-Getting-Started).
+Once done, start the emulation in a new terminal :
+```
+sudo python multi_connectivity_5G_wifi.py
+```
+Once the emulation is successfully launched, open a terminal for node named car1 from mininet term :
+```
+xterm car1
+```
+Display network interfaces and Ping Internet using the UERANSIM 5G UE interface uesimtun0 :
+```
+ifconfig
+ping -I uesimtun0 8.8.8.8
+```
+You can find out more about the UERANSIM 5G UE tools (nr-ue, nr-cli) [here](https://github.com/aligungr/UERANSIM/wiki/Usage)
+
+## Environment installation and configuration  step by step
 As this emulation environment allows building complex 5G architecture and data processing scenarios, it's installation require manual and individual element setup.
 
 The original host on which the Emu5GNet has been build has the following specifications : 11th Gen Intel® Core™ i7-1185G7 @ 3.00GHz × 8, 32 GB of RAM and Ubuntu 20.04 as operating system. The python version required is 3.8. But any host with Intel i7 10th Gen and 16 GB of RAM can do the job.
