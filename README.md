@@ -73,6 +73,7 @@ So you can generate the number of 5G UE you want and register in Open5GS UDM. To
   - Open the web browser and enter : http://172.20.0.02:8080/
   - Enter username : admin and password : 1234
   - Then add a new UE.
+ 9. After each run, you need to clean docker containers created by containernet library integrated within the testbed. We prepared a script for this cleaning task and create an alias for it. Run the ```clean``` command to clean mininet and docker.
 Enjoy research with **Emu5GNet** !!!
  
 ## Environment installation and configuration  step by step
