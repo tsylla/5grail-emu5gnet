@@ -39,7 +39,7 @@ ogstun : 10.45.0.1/16 and 2001:db8:cafe::1/48.
 You are ready to run you first example. Use Visual Studio Code to visualize the python script named multi_connectivity_5G_wifi.py inside the codes_example directory. This code follow a general Mininet/Mininet-Wifi and Containernet code structure. If you are not familiar with these environments, please read their documentations and examples : [Mininet](https://github.com/mininet/mininet/wiki/Introduction-to-Mininet), [Mininet-Wifi](https://usermanual.wiki/Pdf/mininetwifidraftmanual.577244160/html), [Containernet](https://github.com/containernet/containernet/wiki/Tutorial:-Getting-Started).
 Once done, start the emulation in a new terminal :
 ```
-sudo python multi_connectivity_5G_wifi.py
+sudo python multi_connectivity_55_wifi.py
 ```
 Once the emulation is successfully launched, open a terminal for node named car1 from mininet term :
 ```
@@ -65,7 +65,7 @@ Display the routing table to see the different routes :
 7. 5G and Wifi VANET scenario using SUMO simulator for train communications : 
 We prepare a script for VANET+SUMO 5G based network emulation. 
 
-You can this code multi_connectivity_5G_wifi_sumo.py and see the results.
+You can this code multi_connectivity_5g_wifi_vanet_sumo.py and see the results.
 
 8. UE configuration for Open5GS
 In this VM you have 10 5G UE configured in the UDM of Open5GS. These UE (t1 to t10) are configured with UERANSIM and their configurations are located under UERANSIM config directory : ~/mn-wifi-cnet-vimemu-install/ueransim/UERANSIM/config. The UE keys were generated using [Ki/OPc Generator](https://github.com/PodgroupConnectivity/kiopcgenerator) tool.
