@@ -39,7 +39,7 @@ ogstun : 10.45.0.1/16 and 2001:db8:cafe::1/48.
 You are ready to run you first example. Use Visual Studio Code to visualize the python script named multi_connectivity_5G_wifi.py inside the codes_example directory. This code follow a general Mininet/Mininet-Wifi and Containernet code structure. If you are not familiar with these environments, please read their documentations and examples : [Mininet](https://github.com/mininet/mininet/wiki/Introduction-to-Mininet), [Mininet-Wifi](https://usermanual.wiki/Pdf/mininetwifidraftmanual.577244160/html), [Containernet](https://github.com/containernet/containernet/wiki/Tutorial:-Getting-Started).
 Once done, start the emulation in a new terminal :
 ```
-sudo python multi_connectivity_55_wifi.py
+sudo python multi_connectivity_5g_wifi.py
 ```
 Once the emulation is successfully launched, open a terminal for node named car1 from mininet term :
 ```
